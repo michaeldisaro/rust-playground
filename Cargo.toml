@@ -5,3 +5,8 @@ authors = ["Michael Disaro"]
 edition = "2018"
 
 [dependencies]
+serde = { version = "1.0.136" }
+futures = { version = "0.3.21" }
+tokio = { version = "1.17.0", features = ["full"] }
+azure_core = { version = "0.1.0" }
+azure_data_cosmos = { version = "0.1.0" }
